@@ -252,6 +252,12 @@ header a:link, header a:visited {
     background-color: #f6f6f6;
 }
 
+/*-----------  sign in  --------------*/
+
+#action-bar #signin ul li:hover ul {
+    width: 115px;
+}
+
 /*-----------  view-cart  --------------*/
 
 #action-bar #view-cart {
@@ -298,6 +304,179 @@ header a:link, header a:visited {
 
 
 /* ==========================================================================
+   promo-alt
+   ========================================================================== */
+
+
+#promo-alt {
+    height: 400px;
+}
+
+/*---------- promo 1 -----------*/
+
+#promo-alt .promo1 {
+    height: 100%;
+    padding: 20px 30px;
+    background-color: #f7f7f7;
+    width: 60%;
+    float: left;
+    position: relative;
+}
+
+#promo-alt .promo1 h1 {
+    color: #2e373f;
+    padding: 40px 0px;
+    font-size: 28px;
+}
+
+#promo-alt .promo1 p {
+    color: #9dbb6f;
+    padding-bottom: 30px;
+}
+
+#promo-alt .promo1 p span {
+    color: #9dbb6f;
+   font-weight: bold;
+}
+
+#promo-alt .promo1 a {
+    display: block;
+    padding-top: 20px;
+}
+
+#promo-alt .promo1 a:visited, #promo-alt .promo1 a:link {
+    text-decoration: none;
+    color: #5daad0;
+}
+
+#promo-alt .promo1 img {
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+}
+
+/*---------- promo 2 -----------*/
+
+#promo-alt .promo2 {
+    width: 33%;
+    float: left;
+    background-color: #f9f9f9;
+    height: 53%;
+    position: relative;
+    border-left: 1px dashed #5f5e5e;
+    border-bottom: 1px dashed #5f5e5e;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#promo-alt .promo2 h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+#promo-alt .promo2 img {
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+#promo-alt .promo2 a {
+    color: #5daad0;
+}
+
+#promo-alt .promo2 a:link, #promo-alt .promo2 a:visited {
+    text-decoration: none;
+}
+
+#promo-alt .promo2 a img {
+    height: auto;
+    position: static;
+}
+
+/*---------- promo 3 -----------*/
+
+#promo-alt .promo3 {
+    width: 34.8%;
+    float: left;
+    background-color: #2e373f;
+    height: 51%;
+    position: relative;
+    border-left: 1px dashed #5f5e5e;
+    border-bottom: 1px dashed #5f5e5e;
+}
+
+#promo-alt .promo3 img {
+    display: block;
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+
+#promo-alt .promo3 a:visited, #promo-alt .promo3 a:link {
+    text-decoration: none;
+    color: #5daad0;
+
+
+}
+
+#promo-alt .promo3 h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    color: #fff;
+}
+
+#promo-alt .promo3 a img {
+    display: inline;
+    height: auto;
+    float: none;
+    margin: auto;
+}
+
+
+/* ==========================================================================
+       categories-menu
+       ========================================================================== */
+
+.categories-menu {
+    display: block;
+    width: 20%;
+    float: left;
+}
+
+#main-content .categories-menu h3 {
+    color: #c3c3c3;
+}
+
+.categories-menu ul {
+    list-style-image: url('../img/right-arrow.gif');
+}
+
+.categories-menu a:visited, .categories-menu a:link {
+    text-decoration: none;
+    color: #2e373f;
+}
+
+/* ==========================================================================
+       listings
+       ========================================================================== */
+
+
+#listings {
+    display: block;
+    width: 75%;
+    padding: 2%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    float: left;
+    border-left: 1px dotted #5f5e5e;
+}
+
+
+/* ==========================================================================
        MAIN-CONTENT
        ========================================================================== */
 
@@ -309,6 +488,7 @@ header a:link, header a:visited {
     color: #2e373f;
     margin-bottom: 20px;
 }
+
 
 #main-content h3 {
     margin-bottom: 5px;
@@ -562,10 +742,6 @@ footer #connect ul li.fb {
 .cart-btn img {
     padding: 0 5px;
 }
-
-
-
-
 
 
 
